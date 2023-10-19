@@ -1,0 +1,391 @@
+@font-face {
+    font-family: CircularSpotifyText-Bold;
+    src: url(/fonts/CircularSpotifyText-Bold.otf);
+}
+
+@font-face {
+    font-family:CircularSpotifyText-Medium;
+    src: url(/fonts/CircularSpotifyText-Medium.otf);
+}
+
+
+:root {
+    --footer-bg: #121212;
+    --white-hadig: #fff;
+    --gray: #ADADAD;
+    --light-gray: #BABABA;
+    --Patients-bg: #D9D9D9;
+    --black-: #000;
+    --white-: #fff;
+    --peregrap-: #000;
+    --button-bg: #EC8F16;
+    --input-box: #eeeeeecf;
+    --placeholder: #7A7A7A;
+    --sky-blue: #DCF5FF;
+    --blue-border: #005396;
+}
+
+:root {
+    /* --for-heading: CircularSpotifyText-Bold;
+    --for-content: CircularSpotifyText-Medium; */
+    --font-60: 60px;
+    --font-40: 40px;
+    --font-26: 21px;
+    --font-24: 18px;
+    --font-25: 19px;
+    --font-22: 22px;
+    --font-20: 18px;
+    --font-18: 14px;
+    --font-30: 25px;
+}
+
+
+.pdg {
+    padding: 0px 50px;
+}
+
+
+.button-1:hover {
+    font-size: var(--font-25);
+}
+
+.button-1 {
+    margin-top: 20px;
+    width: auto;
+    background: var(--white-);
+    border-radius: 50px;
+   border: 0px;
+    color: var(--black-);
+    font-family: var(--for-content);
+    font-size: var(--font-24);
+    font-weight: 600;
+    padding: 8px 25px;
+}
+
+.button-2:hover {
+    font-size: 17px;
+}
+
+.button-2 {
+    margin-top: 20px;
+    width: auto;
+    background: var(--white-);
+    border-radius: 50px;
+   border: 0px;
+    color: var(--black-);
+    font-family: var(--for-content);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 25px;
+}
+.heading{
+    font-size: var(--font-60);
+    font-weight: 900;
+    font-family: var(--for-heading);
+    color: var(--white-);
+}
+.sub-heading {
+    color: var(--black-);
+    font-family: var(--for-heading);
+    font-size: var(--font-40);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.pregrap {
+    color: var(--peregrap-);
+    font-family: var(--for-content);
+    font-size: var(--font-26);
+    font-weight: 400;
+    margin: 10px 0px;
+    margin-bottom: 20px !important;
+}
+
+.manu-1 {
+    background-color: var(--black-);
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.manu-1 img {
+    width: 18%;
+}
+
+.navbar-nav {
+    display: contents;
+}
+
+
+
+
+.templet{
+    background: linear-gradient(rgb(240,91,31) 15%, rgb(96, 11, 231));
+    padding-top: 80px;
+    align-items: center;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+
+.templet img{
+    width: 78%;
+    margin-bottom: -193px;
+}
+
+.icon-div{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.icon-div img{
+    width: 35%;
+    margin-bottom: 20px;
+}
+.icon-div h5{
+    font-weight: 700;
+    font-size: var(--font-22);
+}
+.icon-div .col-md-4{
+margin-top: 40px;
+}
+
+
+.heading-box{
+    
+    background: linear-gradient(115deg,rgb(240,91,31) 15%, rgb(96, 11, 231));
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+/* footer css start  */
+.footer-logo {
+    width: 40%;
+    margin-bottom: 46px;
+}
+
+.footer-heading {
+    color: var(--white-hadig);
+    font-size: var(--font-26);
+    font-weight: 700;
+    font-family: var(--for-heading);
+}
+
+.footer-icon img {
+    margin-right: 35px;
+    margin-top: 10px;
+}
+
+.footer-list a:hover,
+.follow-us:hover,
+.footer-bottom a:hover {
+    color: var(--button-bg);
+}
+
+
+.footer-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-list a {
+    font-size: var(--font-24);
+    color: var(--gray);
+    text-decoration: none;
+    line-height: 38px;
+    font-family: var(--for-content);
+}
+
+.follow-us,
+.contect-us-text {
+    font-size: var(--font-24);
+    font-family: var(--for-heading);
+    text-decoration: none;
+    line-height: 38px;
+    color: var(--white-hadig);
+    font-weight: 600;
+}
+
+.contect-us-text:hover {
+    color: var(--white-);
+}
+
+.contect-us {
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.footer-bottom {
+    border-top: 0.5px solid var(--gray);
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-bottom span {
+    color: var(--light-gray);
+    font-family: var(--for-content);
+    font-size: var(--font-18);
+    font-weight: 400;
+}
+
+.footer-bottom a {
+    color: var(--light-gray);
+    font-family: var(--for-content);
+    font-size: var(--font-18);
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+footer {
+    background-color: var(--footer-bg);
+    padding-top: 50px;
+}
+
+.footer-iconn img {
+    padding: 15px;
+}
+
+/* footer css end */
+
+@media screen and (min-width:1600px) {
+    :root {
+        --for-heading: RobotoFlex-Regular;
+        --for-content: RobotoFlex-Regular;
+        --font-60: 60px;
+        --font-40: 40px;
+        --font-26: 26px;
+        --font-24: 24px;
+        --font-22: 22px;
+        --font-20: 24px;
+        --font-18: 18px;
+    }
+
+    
+
+    
+
+}
+
+@media screen and (max-width: 992px) and (min-width:756px) {
+    
+
+    
+    
+    :root {
+        --font-60: 37px;
+        --font-40: 32px;
+        --font-26: 18px;
+        --font-24: 16px;
+        --font-22: 20px;
+        --font-20: 16px;
+        --font-18: 15px;
+    }
+
+    .templet img {
+        width: 78%;
+        margin-bottom: -135px;
+    }
+
+    .templet {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .icon-div {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .icon-div img {
+        width: 58%;
+        margin-bottom: 20px;
+    }
+
+    .footer-iconn img {
+        padding: 8px;
+    }
+
+    .footer-logo {
+        width: 58%;
+        margin-bottom: 15px;
+    }
+
+    .heading-box {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* footer css start  */
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .footer-icon img {
+        margin-right: 19px;
+        margin-top: 10px;
+    }
+
+    /* footer css end  */
+
+    
+}
+
+@media screen and (max-width: 757px) and (min-width:0px) {
+    :root {
+        --font-60: 37px;
+        --font-40: 28px;
+        --font-26: 18px;
+        --font-24: 15px;
+        --font-22: 20px;
+        --font-20: 14px;
+        --font-18: 14px;
+    }
+
+    .manu-1 img {
+        width: 36%;
+    }
+    
+    .templet img {
+        width: 78%;
+        margin-bottom: -193px;
+        display: none;
+    }
+
+    .templet{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .templet br{
+        display: none;
+    }
+
+    .icon-div {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .icon-div img {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .heading-box {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 44%;
+        margin-bottom: 15px;
+    }
+
+    .footer-icon img {
+        margin-right: 11px;
+        margin-top: 6px;
+    }
+
+   
+}

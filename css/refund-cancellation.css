@@ -1,0 +1,57 @@
+
+:root {
+    --for-heading: RobotoFlex-Regular;
+    --for-content: RobotoFlex-Regular;
+}
+
+.Cancellation-heading{
+    background: linear-gradient(115deg,rgb(240,91,31) 15%, rgb(96, 11, 231));
+    padding-top: 80px !important;
+    padding-bottom: 20px !important;
+}
+.Cancellation-heading{
+    text-align: center;
+}
+.Cancellation-heading h1{
+    font-family: var(--for-heading);
+    color: var(--white-hadig);
+}
+.Cancellation-heading p{
+    font-family: var(--for-content);
+    color: #000;
+}
+.Cancellation-comtent{
+    background-color: #FAFAFA;
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+}
+.Cancellation-comtent h4{
+    font-family: var(--for-heading);
+    color: #000;
+    margin: 16px 0px;
+}
+.Cancellation-comtent p{
+    font-family: var(--for-content);
+    color: #00001a; 
+}
+.link-text{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.text-lick-light{
+    text-decoration: none;
+    color: #000;
+}
+.text-lick-light:hover{
+    color: #000;
+}
+.ph-link{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 757px) and (min-width:0px){
+.pdg {
+    padding: 0px 20px;
+}
+}
