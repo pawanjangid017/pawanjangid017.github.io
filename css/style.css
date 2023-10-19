@@ -346,8 +346,7 @@ footer {
     
     .templet img {
         width: 78%;
-        margin-bottom: -193px;
-        display: none;
+        margin-bottom:10px;
     }
 
     .templet{
